@@ -18,7 +18,7 @@ class myFrame(wx.Frame):
         wx.StaticText(panel, -1, "请输入文件路径:", pos=(25, 45))
         wx.StaticText(panel, -1, "请输入EPSG Code:", pos=(25, 113))
         wx.StaticText(panel, -1, "EPSG Code 请访问网址 epsg.io 进行查询\n例如:WGS84 UTM 50N的EPSG Code为 EPSG:32650", pos=(135, 150))
-        wx.StaticText(panel, -1, "Author：CAF_IFRIF_Mr.mu\n\n                              V:1.0", pos=(500, 190))
+        wx.StaticText(panel, -1, "Author：CAF_IFRIT_Mr.mu\n\n                              V:1.0", pos=(500, 190))
 
         self.Bind(wx.EVT_BUTTON, self.closebutton, button)
         self.path = wx.TextCtrl(panel, -1, "", pos=(135, 40), size=(500, 25))
